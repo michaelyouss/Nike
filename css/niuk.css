@@ -14,8 +14,14 @@ bode{
     padding-left: 30px;
     padding-right: 20px;
     background: linear-gradient(to top  right, rgb(248, 236, 237), rgb(234, 191, 192), rgb(225, 161, 162), rgb(217, 135, 137));
-    width:100%;
-    height:100vh;
+    width: 100%;
+    height: 100vh;
+}
+@media(max-width:767px){
+    .headr{
+        width: 110%;
+        height: 110vh;
+    }
 }
 .img-headr{
     width: 90%;
@@ -157,7 +163,7 @@ position: relative;
         left: 119px;
     }
 }
-/*
+
 .nike .containe .box-text .boxs{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
@@ -171,7 +177,7 @@ position: relative;
         top: 403px;
         left: 10px;
     }
-}
+} 
 
  .box-text .boxs .box img{
     width: 100px;
@@ -195,7 +201,7 @@ position: relative;
     .box-text .boxs .box h4{
         width: 89px;
     }
-}
+}/*
 .box-img .img-red {
     position: absolute;
     top: 200px;
