@@ -173,7 +173,7 @@ position: relative;
 }
 @media(max-width:767px){
     .nike .containe .box-text .boxs{
-        grid-template-columns: repeat(auto-fill, minmax(83px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(93px, 1fr));
         top: 403px;
         left: 10px;
     }
