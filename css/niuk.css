@@ -7,7 +7,7 @@
 }
 body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   overflow: hidden;
+   /* overflow: hidden; */
 }
 /* ============================== */
 /* Start header */
@@ -15,13 +15,13 @@ body{
     /* padding-left: 30px;
     padding-right: 20px; */
     background: linear-gradient(to top  right, rgb(248, 236, 237), rgb(234, 191, 192), rgb(225, 161, 162), rgb(217, 135, 137));
-    width: 100%;
-    height: 100vh;
+    width: 101%;
+    height: 138vh;
 }
 @media(max-width:767px){
     .headr{
-        width: 100%;
-        height: 150vh;
+        width: 102%;
+        height: 164vh;
     }
 }
 .img-headr{
@@ -139,7 +139,7 @@ position: relative;
 
 @media(max-width:767px){
 .box-text {
-    margin: 335px 0 0 0;
+    margin: 210px 0 0 0;
 }
 }
 
