@@ -248,22 +248,29 @@ position: relative;
 }
 .box-img .img-red .star img{
     width: 50px;
+    position: absolute;
 }
 @media(max-width:767px){
     .box-img .img-red{
         position: absolute;
     }
     .box-img .img-red img{
-        left: 148px;
-        /* display: none; */
-        bottom: 57px;
+        left: -26px;
+        bottom: 53px;
+        width: 301px;
     }
     .box-img .img-red::after{
         content: "";
-        left: 271px;
-        top: -86px;
-        height: 406px;
-        width: 251px;
+        left: 49px;
+        top: -119px;
+        height: 307px;
+        width: 199px;
+    }
+    .box-img .img-red .star img {
+       
+    position: absolute;
+    top: -221px;
+    left: 63px;
     }
 }
  
