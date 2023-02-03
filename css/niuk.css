@@ -19,8 +19,8 @@ bode{
 }
 @media(max-width:767px){
     .headr{
-        width: 110%;
-        height: 110vh;
+        width: 120%;
+        height: 120vh;
     }
 }
 .img-headr{
@@ -216,6 +216,7 @@ position: relative;
     
 }
 .box-img .img-red img{
+    width: 525px;
   position: relative;
     text-align: center;
     z-index: 4;
@@ -244,7 +245,18 @@ position: relative;
 }
 @media(max-width:767px){
     .box-img .img-red{
-        display: none;
+        position: absolute;
+    }
+    .box-img .img-red img{
+        left: 148px;
+        bottom: 57px;
+    }
+    .box-img .img-red::after{
+        content: "";
+        left: 271px;
+        top: -86px;
+        height: 406px;
+        width: 251px;
     }
 }
  
