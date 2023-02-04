@@ -276,3 +276,109 @@ position: relative;
  
 
 /* End header */
+/* ============================================= */
+/* Start About */
+.about{
+    display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin: 50px 20px;
+}
+.about .about-text{
+    position: relative;
+}
+@media(max-width:767px){
+    .about .about-text{
+        /* display: none; */
+    }
+}
+.about .about-text h2{
+    margin: 0 0 14px;
+    font-weight: 800;
+}
+.about .about-text p{
+    margin: 0 0 12px;
+}
+.about .about-text .east i {
+    justify-content: center;
+    background-color: #fcf6de;
+    font-size: 33px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    align-items: center;
+    display: inline-flex;
+    margin: 0 0 20px;
+}
+.about .about-text .east h5{
+    position: absolute;
+    left: 56px;
+    top: 143px;
+}
+
+.about .about-text .Long i {
+    justify-content: center;
+    background-color: #fcf6de;
+    font-size: 33px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    align-items: center;
+    display: inline-flex;
+    margin: 0 0 20px;
+}
+.about .about-text .Long h5{
+    position: absolute;
+    left: 56px;
+    top: 208px;
+}
+.about .about-text .Bast i {
+    justify-content: center;
+    background-color: #fcf6de;
+    font-size: 33px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    align-items: center;
+    display: inline-flex;
+    margin: 0 0 20px;
+}
+.about .about-text .Bast h5{
+    position: absolute;
+    left: 56px;
+    top: 274px;
+}
+.about .about-img{
+    width: 412px;
+    height: 331.36px;
+    position: relative;
+}
+.about .about-img img{
+    width: 344px;
+    position: absolute;
+    text-align: center;
+  
+}
+.about .about-img::after{
+    content: "";
+    background-color: #85984e;
+    width: 210px;
+    height: 210px;
+    position: absolute;
+    border-radius: 50%;
+    right: 106px;
+    z-index: -1;
+    bottom: 42px;
+    text-align: center;
+  
+   
+}
+@media(max-width:767px){
+    .about .about-img img{
+    
+    }
+    .about .about-img::after{
+    
+    }
+}
+
+/* End About */
