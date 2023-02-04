@@ -295,6 +295,11 @@ position: relative;
     margin: 0 0 14px;
     font-weight: 800;
 }
+@media(max-width:767px){
+    .about .about-text h2{
+        margin: auto;
+    }
+}
 .about .about-text p{
     margin: 0 0 12px;
 }
@@ -373,8 +378,12 @@ position: relative;
    
 }
 @media(max-width:767px){
+    .about .about-img{
+        justify-content: center;
+        margin: auto;
+    }
     .about .about-img img{
-    
+        right: 80px;
     }
     .about .about-img::after{
     
