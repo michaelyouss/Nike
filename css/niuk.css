@@ -280,11 +280,19 @@ position: relative;
 /* Start About */
 .about{
     display: grid;
-   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+   grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
     margin: 50px 20px;
+}
+@media(min-width:980px){
+    .about{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+         margin: 50px 20px;
+    }
 }
 .about .about-text{
     position: relative;
+    margin: 0 0 0 20px;
 }
 @media(max-width:767px){
     .about .about-text{
@@ -383,10 +391,12 @@ position: relative;
         margin: auto;
     }
     .about .about-img img{
-        right: 80px;
+        left: 42%;
+        transform: translate(-197px, 10px);
     }
     .about .about-img::after{
-    
+        left: 42%;
+        transform: translatex(-50%);
     }
 }
 
