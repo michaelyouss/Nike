@@ -16,12 +16,12 @@ body{
     padding-right: 20px; */
     background: linear-gradient(to top  right, rgb(248, 236, 237), rgb(234, 191, 192), rgb(225, 161, 162), rgb(217, 135, 137));
     width: 101%;
-    height: 138vh;
+    height: 109vh;
 }
 @media(max-width:767px){
     .headr{
         width: 102%;
-        height: 164vh;
+        height: 137vh;
     }
 }
 .img-headr{
@@ -178,7 +178,7 @@ position: relative;
 
 .nike .containe .box-text .boxs{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
     position: relative;
     top: 450px;
     left: 65px;
