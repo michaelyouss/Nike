@@ -437,12 +437,49 @@ position: relative;
 .continer .our-box .our-text {
     margin: 35px 0 0 0;
 }
-.continer .our-box .our-text span{
-    width: 30px;
-    height: 30px;
+.our-box .our-text span{
+
+} 
+ .our-box .our-text .span-1{
+ 
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: red;
+    margin: 0 3px 0 0;
+    border-radius:50% ;
+ }
+ .our-box .our-text .span-2{
+   
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: blue;
+    left: 30%;
     border-radius: 50%;
-    background-color: rebeccapurple;
+    
 }
-.continer .our-box 
+ .our-box .our-text .span-3{
+   
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: green;
+    left: 35%;
+    border-radius:50% ;
+   
+}
+ .our-box .our-text .span-4{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: #000;
+    left: 40%;
+    border-radius:50% ;
+}
+.continer .our-box p{
+    margin: 13px 0 0;
+    color: #fff269;
+}
 .continer .our-box 
 /* end our */
