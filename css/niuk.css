@@ -401,3 +401,37 @@ position: relative;
 }
 
 /* End About */
+/* =================================== */
+/* stat our*/
+.continer{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+.continer h2{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.continer .our-gred{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    
+}
+.continer .our-box {
+    display: grid;
+    justify-content: center;
+    position: relative;
+    width:242.75px;
+    height:199.25px;
+    border:2px solid #000;
+    margin: 0  0 0;
+    
+    
+}
+.continer .our-box  img{
+    width:135px;
+}
+.continer .our-box 
+.continer .our-box 
+.continer .our-box 
+/* end our */
