@@ -415,6 +415,7 @@ position: relative;
 .continer .our-gred{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    margin: 102px 0 0 26px;
     
 }
 .continer .our-box {
@@ -422,16 +423,26 @@ position: relative;
     justify-content: center;
     position: relative;
     width:242.75px;
-    height:199.25px;
+    height:99.25px;
     border:2px solid #000;
-    margin: 0  0 0;
-    
+    margin: 88px 0 0 0;
     
 }
 .continer .our-box  img{
     width:135px;
+    position: absolute;
+    bottom: 36px;
+    right: 75px;
 }
-.continer .our-box 
+.continer .our-box .our-text {
+    margin: 35px 0 0 0;
+}
+.continer .our-box .our-text span{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rebeccapurple;
+}
 .continer .our-box 
 .continer .our-box 
 /* end our */
