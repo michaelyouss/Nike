@@ -2,7 +2,7 @@
 
 
 *{
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     margin: 0;
 }
 body{
@@ -17,11 +17,11 @@ body{
     padding-right: 20px; */
     background: linear-gradient(to top  right, rgb(248, 236, 237), rgb(234, 191, 192), rgb(225, 161, 162), rgb(217, 135, 137));
     width: 101%;
-    height: 109vh;
+    height: 113vh;
 }
 @media(max-width:767px){
     .headr{
-        width: 107%;
+        width: 101%;
         height: 137vh;
     }
 }
@@ -576,3 +576,29 @@ position: relative;
 
 
 /* End provide */  
+/* Start see */
+.see .continer h2{
+    margin: 57px 0 33px;
+}
+
+
+.see .img-box  {
+    margin: 0 0 0 23px;
+}
+
+
+.see .img-box  img {
+    width: 651px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+@media(max-width:767px){
+    .see .img-box  img{
+        width: 258px;
+    }
+}
+
+
+
+/* End see */
