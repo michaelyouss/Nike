@@ -16,12 +16,12 @@ body{
     /* padding-left: 30px;
     padding-right: 20px; */
     background: linear-gradient(to top  right, rgb(248, 236, 237), rgb(234, 191, 192), rgb(225, 161, 162), rgb(217, 135, 137));
-    width: 107%;
+    width: 101%;
     height: 109vh;
 }
 @media(max-width:767px){
     .headr{
-        width: 104%;
+        width: 107%;
         height: 137vh;
     }
 }
