@@ -283,13 +283,13 @@ position: relative;
 /* Start About */
 .about{
     display: grid;
-   grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+   grid-template-columns: repeat(auto-fill, minmax(315px, 1fr));
    margin: 50px 2px 50px;
 }
 @media(min-width:980px){
     .about{
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
          margin: 50px 20px;
     }
 }
@@ -514,6 +514,7 @@ position: relative;
     .provide-img{
         top: -15px;
         height: 304px;
+        width: 300px;
     }
 }
 .provide-img .niuk2{
