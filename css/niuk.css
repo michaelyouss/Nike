@@ -633,3 +633,40 @@ position: relative;
 }
 
 /* End for */
+/* Star fotar */
+.foter{
+    width: 100%;
+    min-height: 250px;
+    background-color: #e4abac;
+      position: relative; 
+      margin: 0 0 30px 0;
+}
+.g-fot{}
+.g-fot .fot-icon .ni{
+    position: relative;
+}
+.g-fot .fot-icon .ni p{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 85px;
+
+}
+
+.g-fot .fot-icon img{
+width:100px;
+}
+
+.g-fot .fot-icon ul{
+    list-style: none;
+    position: absolute;
+    bottom: 28px;
+}
+.g-fot .fot-icon ul li{
+    display: inline-block;
+   
+}
+.g-fot .fot-icon ul li i{
+    padding: 0 5px;
+}
+/* End fotar */
