@@ -602,3 +602,34 @@ position: relative;
 
 
 /* End see */
+/* Start for */
+.for{
+    text-align: center;
+    position: relative;
+    margin: 0 0 80px 0;
+}
+.for p{
+
+    margin: auto;
+}
+.for h2{
+    color:#000;
+}
+
+.for .search{
+    width: 229px;
+    position: relative;
+    background-color: #e4abac;
+    top: 45px;
+    padding: 10px 0px;
+    right: 10px;
+}
+.for  .search span {
+   color:white;
+    left: 74px;
+    position: relative;
+    background-color: #000;
+    padding: 10px;
+}
+
+/* End for */
