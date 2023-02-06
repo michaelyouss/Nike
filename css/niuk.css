@@ -485,40 +485,92 @@ position: relative;
 /* end our */
 /* ============================================ */
 /* start provide */
-
 .provide-text p{
-
-}
-
-.provide-f{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(339px, 1fr));
-    margin: 102px 0 0 26px;
-  
-}
-
-.provide-img .back{
-    width:100px;
-}
-.provide-img .back img{
-    width: 200px;
-
+    
 }
 .provide-cestion{
     width: 100%;
     min-height: 250px;
-    background-color: #d98689;
+    background-color: #e4abac;
       position: relative; 
+      margin: 0 0 30px 0;
 }
 @media(max-width:767px){
     .provide-cestion{
         width: 376px; 
     }
 }
-
-
-
-.provide-text p{
-color: red;
+.provide-f{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(339px, 1fr));
+    margin: 102px 0 0 26px;
+  
 }
+.provide-img {
+    position: relative;
+  
+}
+@media(max-width:767px){
+    .provide-img{
+        top: -15px;
+        height: 304px;
+    }
+}
+.provide-img .niuk2{
+    position: absolute;
+    top: 60px;
+    z-index: 2;
+}
+.provide-img img{
+    width: 200px;
+
+
+  
+}
+.provide-img .back{
+    width:100px;
+    position: absolute;
+    z-index: 1;
+    top: 26px;
+}
+.provide-img .back img{
+    width: 200px;
+
+}
+
+
+.provide-text h2{
+    color: #fff;
+    margin: 28px 0 0 0;
+    text-align: start;
+    font-size: 30px;
+}
+.provide-text p{
+    color: #fff;
+    position: absolute;
+    top: 109px;
+}
+.provide-text button{
+    color: #fff;
+    background-color: #000;
+    border: none;
+    position: absolute;
+    bottom: 23px;
+    padding: 7px 20px;
+}
+@media(max-width:767px){
+    .provide-text h2{
+        bottom: 223px;
+        position: absolute;
+    }
+    .provide-text p{
+        top: -20px;
+        width: 260px;
+        height: 145px;
+        position: relative;
+    }
+
+}
+
+
 /* End provide */  
