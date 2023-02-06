@@ -406,7 +406,7 @@ position: relative;
 .continer{
     padding-left: 40px;
     padding-right: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 .continer h2{
     text-align: center;
@@ -483,3 +483,34 @@ position: relative;
 }
 .continer .our-box 
 /* end our */
+/* ============================================ */
+/* start provide */
+
+.provide-text p{
+
+}
+
+.provide-f{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(339px, 1fr));
+    margin: 102px 0 0 26px;
+  
+}
+
+.provide-img .back img{
+    width: 200px;
+
+}
+.provide-cestion{
+    width: 376px;
+    min-height: 250px;
+    background-color: #d98689;
+      position: relative; 
+}
+
+
+
+.provide-text p{
+color: red;
+}
+/* End provide */  
