@@ -497,15 +497,23 @@ position: relative;
   
 }
 
+.provide-img .back{
+    width:100px;
+}
 .provide-img .back img{
     width: 200px;
 
 }
 .provide-cestion{
-    width: 376px;
+    width: 100%;
     min-height: 250px;
     background-color: #d98689;
       position: relative; 
+}
+@media(max-width:767px){
+    .provide-cestion{
+        width: 376px; 
+    }
 }
 
 
